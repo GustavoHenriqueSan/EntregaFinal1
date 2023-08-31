@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(fundo.jpg); 
+  color: #ffffff; 
+}
+
+.header {
+  background-image: url(fundo);
+  text-align: center;
+  padding: 1rem;
+}
+
+.cardapio {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+.item-container {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-image: url(fundo.jpg+);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #f3eaea;
+}
+
+.item-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.item {
+  font-size: 24px;
+}
+
+.descricao p {
+  font-size: 16px;
+}
+
+.menu-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link {
+  color: #743636;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #853f3f;
+}
+
+.container {
+  padding: 2rem;
+  background-image: url(fundo.jpg);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.container a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
